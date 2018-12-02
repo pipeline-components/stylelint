@@ -28,13 +28,15 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-__BASEDIR="$(dirname ${0})"
-__BASEDIR="$(realpath ${__BASEDIR}/../)"
+__BASEDIR="$(dirname "${0}")"
+__BASEDIR="$(realpath "${__BASEDIR}/../")"
 
 CONFIG_BASEDIR="${CONFIG_BASEDIR:-$__BASEDIR}"
 
-if [[ ! -z ${CONFIG_BASEDIR} ]] ; then
+if [ -z "${CONFIG_BASEDIR}" ] ; then
+	_CMD=""
+else
 	_CMD=" --config-basedir=${CONFIG_BASEDIR} "
 fi
 
-exec /app/node_modules/.bin/stylelint ${_CMD} ${@}
+exec /app/node_modules/.bin/stylelint "${_CMD}" "${@}"
