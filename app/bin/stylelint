@@ -36,7 +36,7 @@ CONFIG_BASEDIR="${CONFIG_BASEDIR:-$__BASEDIR}"
 if [ -z "${CONFIG_BASEDIR}" ] ; then
 	_CMD=""
 else
-	_CMD=" --config-basedir=${CONFIG_BASEDIR} "
+	_CMD="--config-basedir=${CONFIG_BASEDIR}"
 fi
 
 exec /app/node_modules/.bin/stylelint "${_CMD}" "${@}"
