@@ -22,7 +22,6 @@ The application is installed in /app/ and base the following components
 > Style lint is a bit problematic and a wrapper script tries to work around this.
 > If you want to use your own stylelint config packages, set CONFIG_BASEDIR to the directory where node_modules is located
 
-
 ## Examples
 
 ```yaml
