@@ -14,7 +14,14 @@
 
 ## Usage
 
-The image is for running stylelint, stylelint is installed in /app/ in case you need to customize the install before usage
+The application is installed in /app/ and base the following components
+
+- stylelint
+- stylelint-config-standard
+
+> Style lint is a bit problematic and a wrapper script tries to work around this.
+> If you want to use your own stylelint config packages, set CONFIG_BASEDIR to the directory where node_modules is located
+
 
 ## Examples
 
