@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "stylelint": "13.2.1",
+    "stylelint": "13.3.3",
     "stylelint-config-standard": "20.0.0"
   }
 }
