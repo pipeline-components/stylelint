@@ -1,0 +1,138 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-LODASH-567746:
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > table > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/generator > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.502Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/generator > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/generator > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.503Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-module-imports > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > postcss-reporter > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.504Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-member-expression-to-functions > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/helper-optimise-call-expression > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-simple-access > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.505Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.506Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.506Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.506Z'
+    - stylelint > @stylelint/postcss-css-in-js > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        reason: No update available
+        expires: '2020-07-13T07:10:42.506Z'
+patch: {}
