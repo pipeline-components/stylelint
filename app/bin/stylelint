@@ -26,7 +26,6 @@
 
 set -o errexit
 set -o nounset
-set -o pipefail
 
 __BASEDIR="$(dirname "${0}")"
 __BASEDIR="$(realpath "${__BASEDIR}/../")"
