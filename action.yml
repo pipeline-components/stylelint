@@ -1,5 +1,5 @@
 ---
-name: "stylelint"
+name: "pipeline-components-stylelint"
 description: "stylelint by Pipeline Components"
 author: "Robbert Müller <spam.me@grols.ch>"
 branding:
