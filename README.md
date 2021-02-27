@@ -27,7 +27,7 @@ The application is installed in /app/ and base the following components
 ```yaml
 stylelint:
   stage: linting
-  image: pipelinecomponents/stylelint:latest
+  image: registry.gitlab.com/pipeline-components/stylelint:latest
   script:
     - stylelint --color '**/*.css'
 ```
