@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "stylelint": "14.8.5",
-    "stylelint-config-standard": "25.0.0"
+    "stylelint-config-standard": "26.0.0"
   }
 }
