@@ -16,6 +16,16 @@ The application is installed in /app/ and base the following components
 
 - stylelint
 - stylelint-config-standard
+- stylelint-config-recommended-vue
+- stylelint-config-standard-scss
+
+If you don't have a stylelint config already, it is advised to add a config, add a file names `.stylelintrc.json` with the following content
+```json
+{
+  "extends": "stylelint-config-standard-scss"
+}
+```
+
 
 > Style lint is a bit problematic and a wrapper script tries to work around this.
 > If you want to use your own stylelint config packages, set CONFIG_BASEDIR to the directory where node_modules is located
