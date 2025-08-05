@@ -662,7 +662,7 @@ stylelint-config-recommended-vue@^1.4.0:
     stylelint-config-html ">=1.0.0"
     stylelint-config-recommended ">=6.0.0"
 
-stylelint-config-recommended@>=6.0.0:
+stylelint-config-recommended@>=6.0.0, stylelint-config-recommended@^17.0.0:
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-17.0.0.tgz#4f77c70609b2d7093cc60bb48adfabdde434aa5d"
   integrity sha512-WaMSdEiPfZTSFVoYmJbxorJfA610O0tlYuU2aEwY33UQhSPgFbClrVJYWvy3jGJx+XW37O+LyNLiZOEXhKhJmA==
@@ -680,7 +680,14 @@ stylelint-config-standard-scss@^15.0.0:
     stylelint-config-recommended-scss "^15.0.1"
     stylelint-config-standard "^38.0.0"
 
-stylelint-config-standard@38.0.0, stylelint-config-standard@^38.0.0:
+stylelint-config-standard@39.0.0:
+  version "39.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-39.0.0.tgz#9635554a9c42e7e89dadc024afac372d18e3e776"
+  integrity sha512-JabShWORb8Bmc1A47ZyJstran60P3yUdI1zWMpGYPeFiC6xzHXJMkpKAd8EjIhq3HPUplIWWMDJ/xu0AiPd+kA==
+  dependencies:
+    stylelint-config-recommended "^17.0.0"
+
+stylelint-config-standard@^38.0.0:
   version "38.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-38.0.0.tgz#9d673ec1f35d7569476ee4b0582e7dd5faebf036"
   integrity sha512-uj3JIX+dpFseqd/DJx8Gy3PcRAJhlEZ2IrlFOc4LUxBX/PNMEQ198x7LCOE2Q5oT9Vw8nyc4CIL78xSqPr6iag==
