@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "stylelint": "16.26.1",
+    "stylelint": "17.0.0",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "39.0.1",
     "stylelint-config-standard-scss": "^16.0.0"
