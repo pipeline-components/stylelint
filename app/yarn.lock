@@ -44,7 +44,7 @@
   resolved "https://registry.yarnpkg.com/@csstools/css-parser-algorithms/-/css-parser-algorithms-4.0.0.tgz#e1c65dc09378b42f26a111fca7f7075fc2c26164"
   integrity sha512-+B87qS7fIG3L5h3qwJ/IFbjoVoOe/bpOdh9hAjXbvx0o8ImEmUsGXN0inFOnk2ChCFgqkkGFQ+TpM5rbhkKe4w==
 
-"@csstools/css-syntax-patches-for-csstree@^1.0.26":
+"@csstools/css-syntax-patches-for-csstree@^1.0.27":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@csstools/css-syntax-patches-for-csstree/-/css-syntax-patches-for-csstree-1.1.0.tgz#6c41ea7084e17ee5b8aa3ecd86f85f35eb64994f"
   integrity sha512-H4tuz2nhWgNKLt1inYpoVCfbJbMwX/lQKp3g69rrrIMIYlFD9+zTykOKhNR8uGrAmbS/kT9n6hTFkmDkxLgeTA==
@@ -145,11 +145,6 @@ astral-regex@^2.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-2.0.0.tgz#483143c567aeed4785759c0865786dc77d7d2e31"
   integrity sha512-Z7tMw1ytTXt5jqMcOP+OQteU1VuNK9Y02uuJtKQ1Sv69jXQKKg5cibLwGJow8yzZP+eAc18EmLGPal0bp36rvQ==
 
-balanced-match@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-3.0.1.tgz#e854b098724b15076384266497392a271f4a26a0"
-  integrity sha512-vjtV3hiLqYDNRoiAv0zC4QaGAMPomEoq83PRmYIofPswwZurCeWR5LByXm7SyoL0Zh5+2z0+HC7jG8gSZJUh0w==
-
 braces@^3.0.3:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/braces/-/braces-3.0.3.tgz#490332f40919452272d55a8480adc0c441358789"
@@ -200,7 +195,7 @@ cosmiconfig@^9.0.0:
     js-yaml "^4.1.0"
     parse-json "^5.2.0"
 
-css-functions-list@^3.2.3:
+css-functions-list@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.3.3.tgz#c4ab5008659de2e3baf3752c8fdef7662f3ffe23"
   integrity sha512-8HFEBPKhOpJPEPu70wJJetjKta86Gw9+CCyCnB3sui2qQfOvRyqBy4IKLKKAwdMpWb2lHXWk9Wb4Z6AmaUT1Pg==
@@ -752,22 +747,21 @@ stylelint-scss@^7.0.0:
     postcss-selector-parser "^7.1.1"
     postcss-value-parser "^4.2.0"
 
-stylelint@17.3.0:
-  version "17.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-17.3.0.tgz#18fa199862205516d7011524557fae4ff5b9d60f"
-  integrity sha512-1POV91lcEMhj6SLVaOeA0KlS9yattS+qq+cyWqP/nYzWco7K5jznpGH1ExngvPlTM9QF1Kjd2bmuzJu9TH2OcA==
+stylelint@17.4.0:
+  version "17.4.0"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-17.4.0.tgz#f8beba358d0cb93508de4efdcd28bf06f5010e38"
+  integrity sha512-3kQ2/cHv3Zt8OBg+h2B8XCx9evEABQIrv4hh3uXahGz/ZEHrTR80zxBiK2NfXNaSoyBzxO1pjsz1Vhdzwn5XSw==
   dependencies:
     "@csstools/css-calc" "^3.1.1"
     "@csstools/css-parser-algorithms" "^4.0.0"
-    "@csstools/css-syntax-patches-for-csstree" "^1.0.26"
+    "@csstools/css-syntax-patches-for-csstree" "^1.0.27"
     "@csstools/css-tokenizer" "^4.0.0"
     "@csstools/media-query-list-parser" "^5.0.0"
     "@csstools/selector-resolve-nested" "^4.0.0"
     "@csstools/selector-specificity" "^6.0.0"
-    balanced-match "^3.0.1"
     colord "^2.9.3"
     cosmiconfig "^9.0.0"
-    css-functions-list "^3.2.3"
+    css-functions-list "^3.3.3"
     css-tree "^3.1.0"
     debug "^4.4.3"
     fast-glob "^3.3.3"
@@ -781,7 +775,6 @@ stylelint@17.3.0:
     import-meta-resolve "^4.2.0"
     imurmurhash "^0.1.4"
     is-plain-object "^5.0.0"
-    known-css-properties "^0.37.0"
     mathml-tag-names "^4.0.0"
     meow "^14.0.0"
     micromatch "^4.0.8"
