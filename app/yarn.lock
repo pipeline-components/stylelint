@@ -360,7 +360,7 @@ hookified@^1.15.0, hookified@^1.15.1:
   resolved "https://registry.yarnpkg.com/hookified/-/hookified-1.15.1.tgz#b1fafeaa5489cdc29cb85546a8f837ed4ffbbcb6"
   integrity sha512-MvG/clsADq1GPM2KGo2nyfaWVyn9naPiXrqIe4jYjXNZQt238kWyOGrsyc/DmRAQ+Re6yeo6yX/yoNCG5KAEVg==
 
-hookified@^2.1.0:
+hookified@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/hookified/-/hookified-2.1.1.tgz#50e21c700e447d5c30e4ff8574e8ff28cbd641f0"
   integrity sha512-AHb76R16GB5EsPBE2J7Ko5kiEyXwviB9P5SMrAKcuAu4vJPZttViAbj9+tZeaQE5zjDme+1vcHP78Yj/WoAveA==
@@ -602,11 +602,11 @@ postcss@^8.5.6:
     source-map-js "^1.2.1"
 
 qified@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/qified/-/qified-0.9.0.tgz#32bcbd00a740263e69b8dd3b1db63222dbd36da9"
-  integrity sha512-4q61YgkHbY6gmwkqm0BsxyLDO3UYdrdiJTJ7JiaZb3xpW1duxn135SB7KqUEkCiuu5O4W+TtwEWP2VjmSRanvA==
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/qified/-/qified-0.9.1.tgz#7d3fc03abf293bac97525f9b046a09cf7cbf5385"
+  integrity sha512-n7mar4T0xQ+39dE2vGTAlbxUEpndwPANH0kDef1/MYsB8Bba9wshkybIRx74qgcvKQPEWErf9AqAdYjhzY2Ilg==
   dependencies:
-    hookified "^2.1.0"
+    hookified "^2.1.1"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
