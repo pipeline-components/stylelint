@@ -690,11 +690,6 @@ strip-ansi@^7.1.2:
   dependencies:
     ansi-regex "^6.2.2"
 
-stylelint-config-html@>=1.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-html/-/stylelint-config-html-2.0.0.tgz#9d21058834fba6b02fd7e0572e93f90a6e755042"
-  integrity sha512-Lk1NPEdUxzHkPv3ehktjpiOk4MPaqQ3H8fkvhxdWlQpaZCm9ze0SoMbRQLqkUxEMfPE1G9/x968uxm/+d2njoA==
-
 stylelint-config-recommended-scss@^17.0.0:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended-scss/-/stylelint-config-recommended-scss-17.0.1.tgz#cd572ef7eda76ef40f8528bbb9624de40fccd3fa"
@@ -704,16 +699,14 @@ stylelint-config-recommended-scss@^17.0.0:
     stylelint-config-recommended "^18.0.0"
     stylelint-scss "^7.0.0"
 
-stylelint-config-recommended-vue@^1.4.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-1.6.1.tgz#6a93082ce4a5c1f64793b789175a833c57ce8309"
-  integrity sha512-lLW7hTIMBiTfjenGuDq2kyHA6fBWd/+Df7MO4/AWOxiFeXP9clbpKgg27kHfwA3H7UNMGC7aeP3mNlZB5LMmEQ==
+stylelint-config-recommended-vue@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended-vue/-/stylelint-config-recommended-vue-2.0.0.tgz#6cfa6f0dba711996d3f8422dee3a965c86e2a597"
+  integrity sha512-SrGBfxgX+CmxRoFOl6HHhfKrp+6YvGnuiHj/N+/deI310eGNhix8aZOtPHG+OeqB6+5Si5BbjsZiC+kULUO1DQ==
   dependencies:
     semver "^7.3.5"
-    stylelint-config-html ">=1.0.0"
-    stylelint-config-recommended ">=6.0.0"
 
-stylelint-config-recommended@>=6.0.0, stylelint-config-recommended@^18.0.0:
+stylelint-config-recommended@^18.0.0:
   version "18.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-18.0.0.tgz#1d86be73565c3cd5e6babb8abcc932012a86bd76"
   integrity sha512-mxgT2XY6YZ3HWWe3Di8umG6aBmWmHTblTgu/f10rqFXnyWxjKWwNdjSWkgkwCtxIKnqjSJzvFmPT5yabVIRxZg==
